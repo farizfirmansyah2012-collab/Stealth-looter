@@ -1,114 +1,165 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>main Game GRAWJAX</title>
-<style>
-body {
-background: #4B0082; color: white;
-  color: #fff;      /* Tulisan putih */
-  font-family: Arial;
-  padding: 15px;
-}
-img {
-  max-width: 100%;
-  width: 300px;
-  border: 2px solid #FFD700;
-  border-radius: 8px;
-  margin: 10px 0;
-}
-a { color: #FFD700; }
-h1 { color: #FFD700; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Game GRAWJAX</title>
+    
+    <!-- Script Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1007672375570401" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            background: #4B0082; 
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+            line-height: 1.6;
+        }
+        
+        h1 { color: #FFD700; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+        p { margin-bottom: 20px; }
+        
+        /* Container untuk Game agar rapi */
+        .game-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(255, 215, 0, 0.3);
+            transition: transform 0.3s;
+        }
+        
+        .game-card:hover {
+            transform: translateY(-5px);
+            border-color: #FFD700;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 3px solid #FFD700;
+            border-radius: 12px;
+            margin: 10px 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+
+        .btn-play {
+            display: inline-block;
+            background: #FFD700;
+            color: #4B0082;
+            padding: 10px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 25px;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+
+        .btn-play:hover {
+            background: #fff;
+            transform: scale(1.1);
+        }
+
+        /* Tombol Donasi Saweria */
+        .saweria-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #FFD700;
+            color: #000;
+            padding: 12px 20px;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 14px;
+            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            z-index: 9999;
+            border: 2px solid #000;
+            animation: goyang 2s infinite;
+        }
+
+        @keyframes goyang {
+            0%, 100% { transform: rotate(-2deg); }
+            50% { transform: rotate(2deg); }
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 0.9em;
+            border-top: 1px solid #FFD700;
+        }
+    </style>
 </head>
 <body>
 
-<h1>MAIN GAME GRAWJAX</h1>
-<p>halo semuaa!! jadi di sini tempat main game geratis.meskipun gak ada game yang bgus tapi seru.buat kalian yang mau main silah kan klik link di bawah yaa!</p>
+    <h1>🎮 MAIN GAME GRAWJAX</h1>
+    <p>Halo semua! Di sini tempat main game gratis. Meskipun sederhana, tapi dijamin seru! Klik link di bawah untuk mulai bermain.</p>
 
-<p>nih game nya</p>
-<!-- GANTI PAKE LINK IMGUR BENER: klik kanan gambar > Copy image address -->
-<img src="https://etok.neocities.org/IMG_20260426_100113.jpg" alt="game bola bola" witdh="300">
-<br>
-<a href="https://etok.neocities.org/Update%20asasin" target="_blank">klik ini untuk coba game</a>
-<p>ini game tank</p>
-<img src="https://etok.neocities.org/IMG_20260425_221430.jpg" alt="ini game tank" witdh="300">
-<br>
-<a href="https://etok.neocities.org/Tank" target="_blank">klik ini untuk coba game</a>
-<p>ini game pesawat</p>
-<img src="https://etok.neocities.org/IMG_20260425_062920.jpg" alt="ini game pesawat" width="300">
-<br>
-<a href="https://etok.neocities.org/V17%20pesawat" target="_ blank">klik ini untuk coba game</a>
-<p>lanjut ke game catur,sesuai request,sudah di update</p>
-<img src="https://etok.neocities.org/IMG_20260424_183019.jpg" alt="ini game catur" width="300">
-<br>
-<a href="https://etok.neocities.org/Updade%20catur"target="_blank">klik ini untuk coba game</a>
-<p>lanjut ke game subway etok</p>
-<img src="https://etok.neocities.org/IMG_20260424_153850.jpg" alt="Ini game etok terbaru dari developer, silahkan coba" width="300">
-<br>
-<a href="https://etok.neocities.org/Subway%20etok100" target="_blank">Klik ini untuk coba game</a>
+    <!-- Game 1 -->
+    <div class="game-card">
+        <h3>Game Bola-Bola (Assassin)</h3>
+        <img src="https://etok.neocities.org/IMG_20260426_100113.jpg" alt="game bola bola">
+        <br>
+        <a href="https://etok.neocities.org/Update%20asasin" target="_blank" class="btn-play">Mainkan Sekarang</a>
+    </div>
 
-<p>lanjut ke game amade</p>
-<img src="https://etok.neocities.org/IMG_20260424_153747.jpg"alt="ini game nya" width="300">
-<br>
-<a href="https://goodofamade.tiiny.site/" target="_blank">Klik ini untuk coba game</a>
+    <!-- Game 2 -->
+    <div class="game-card">
+        <h3>Game Tank Baja</h3>
+        <img src="https://etok.neocities.org/IMG_20260425_221430.jpg" alt="game tank">
+        <br>
+        <a href="https://etok.neocities.org/Tank" target="_blank" class="btn-play">Mainkan Sekarang</a>
+    </div>
 
-<p>saya baru punya 3 game,masih kami usahakan,nanti akan lebih banyak, silah kan di coba</p>
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-<title>link main gratis</title>
-<style>
-...css lu...
-</style>
+    <!-- Game 3 -->
+    <div class="game-card">
+        <h3>Game Pesawat Tempur</h3>
+        <img src="https://etok.neocities.org/IMG_20260425_062920.jpg" alt="game pesawat">
+        <br>
+        <a href="https://etok.neocities.org/V17%20pesawat" target="_blank" class="btn-play">Mainkan Sekarang</a>
+    </div>
 
-<!-- TEMPEL DISINI COK -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1007672375570401"
-     crossorigin="anonymous"></script>
-</head>
-<!-- Tombol Donasi Saweria -->
-<style>
-  .saweria-btn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #FFD700;
-    color: #000;
-    padding: 12px 20px;
-    border-radius: 50px;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-    text-decoration: none;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-    z-index: 9999;
-    border: 2px solid #000;
-    animation: goyang 2s infinite;
-  }
-  .saweria-btn:hover {
-    background: #FFC300;
-    transform: scale(1.05);
-  }
-  @keyframes goyang {
-    0%, 100% { transform: rotate(-2deg); }
-    50% { transform: rotate(2deg); }
-  }
-  @media (max-width: 600px) {
-    .saweria-btn { 
-      bottom: 15px; 
-      right: 15px; 
-      font-size: 12px; 
-      padding: 10px 16px; 
-    }
-  }
-</style>
+    <!-- Game 4 -->
+    <div class="game-card">
+        <h3>Game Catur (Updated)</h3>
+        <img src="https://etok.neocities.org/IMG_20260424_183019.jpg" alt="game catur">
+        <br>
+        <a href="https://etok.neocities.org/Updade%20catur" target="_blank" class="btn-play">Mainkan Sekarang</a>
+    </div>
 
-<a href="https://saweria.co/FarizDev2012" target="_blank" class="saweria-btn">
-  ☕ Traktir Kopi Rp 5k
-</a>
+    <!-- Game 5 -->
+    <div class="game-card">
+        <h3>Subway Etok 100</h3>
+        <img src="https://etok.neocities.org/IMG_20260424_153850.jpg" alt="subway etok">
+        <br>
+        <a href="https://etok.neocities.org/Subway%20etok100" target="_blank" class="btn-play">Mainkan Sekarang</a>
+    </div>
+
+    <!-- Game 6 -->
+    <div class="game-card">
+        <h3>Game Amade</h3>
+        <img src="https://etok.neocities.org/IMG_20260424_153747.jpg" alt="game amade">
+        <br>
+        <a href="https://goodofamade.tiiny.site/" target="_blank" class="btn-play">Mainkan Sekarang</a>
+    </div>
+
+    <p><em>Saat ini sudah ada 6 game, developer sedang berusaha menambah lebih banyak lagi!</em></p>
+
+    <!-- Tombol Donasi -->
+    <a href="https://saweria.co/FarizDev2012" target="_blank" class="saweria-btn">
+      ☕ Traktir Kopi Rp 5k
+    </a>
+
+    <footer>
+        <h3>Privacy Policy</h3>
+        <p>Game ini tidak mengumpulkan data pribadi. Google menggunakan cookie untuk keperluan iklan.</p>
+        <p>Kontak: farizfirmansyah2012@gmail.com</p>
+    </footer>
+
 </body>
-<h1>Privacy Policy</h1>
-<p>Game ini gak ngumpulin data. Google pake cookie buat iklan.</p>
-<p>Email: farizfirmansyah2012@gmail.com</p>
-<a href="index.html">Balik ke Game</a>
 </html>
