@@ -90,17 +90,44 @@
             padding: 15px 40px;
             text-decoration: none;
             font-weight: bold;
-            border-radius: 50px;
+            border-radius: 15px;
+;
             margin-top: 20px;
             box-shadow: 0 5px 0 #b8860b;
         }
 
         .btn-play:hover { background: #fff; transform: scale(1.05); }
+    
+/* Efek membesar saat tombol di-hover (kursor diarahkan) */
 
-        .saweria-btn { position: fixed; bottom: 20px; right: 20px; background: #FFD700; color: #000; padding: 12px 20px; border-radius: 50px; font-weight: bold; text-decoration: none; z-index: 9999; animation: goyang 2s infinite; border: 2px solid #000; }
-        @keyframes goyang { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } }
-        
-        footer { margin-top: 50px; padding: 40px; background: rgba(0,0,0,0.3); border-top: 2px solid #FFD700; }
+        .tombol-melayang {
+            position: fixed;
+            bottom: 20px; /* Jarak dari bawah layar */
+            right: 20px;  /* Jarak dari kanan layar */
+            z-index: 9999; /* Memastikan tombol selalu di depan elemen lain */
+            
+            /* Desain visual (bisa Anda sesuaikan) */
+            background-color: rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px); /* Untuk dukungan browser Safari */
+/* Contoh warna hijau WhatsApp */
+            color: white;
+            padding: 8px 14px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            border: 1px solid #e8cb00;
+            font-size: 14px;
+        }
+
+        /* Efek saat tombol diarahkan kursor */
+        .tombol-melayang:hover {
+            transform: scale(1.1); /* Tombol sedikit membesar */
+            background-color: #e8cb00;
+        }
         <div class="dock-container">
     </style>
 </head>
@@ -145,6 +172,13 @@
     PORTAL GAME GRATIS
   </p>
 </div>
+<a href="https://saweria.co/FarizDev2012" class="tombol-melayang">
+        DUKUNG DEVELOPER
+    </a>
+</div>
+    
+
+
     <div class="hero-container">
     
     <div class="content-wrapper">
@@ -223,95 +257,15 @@
         <!-- Tambahkan Game lainnya dengan format yang sama -->
 
 
-       <h3>Privacy Policy</h3>
-        <p><em>Game ini tidak mengumpulkan data pribadi. Google menggunakan cookie untuk keperluan iklan.</em></p>
-        <p>Kontak: farizfirmansyah2012@gmail.com</p>
-    </footer>
-    <!-- TOMBOL SAWERIA MELAYANG EKSLUSIF -->
-<style>
-    .saweria-floating-container {
-        position: fixed !important;
-        bottom: 25px !important;
-        right: 25px !important;
-        width: auto !important;
-        height: auto !important;
-        z-index: 9999999 !important;
-        pointer-events: auto !important;
-    }
+      <div style="text-align: center; color: white; font-family: sans-serif; padding: 10px; width: 100%; box-sizing: border-box;">
+    <h3 style="margin: 0 0 5px 0; color: white font-size: 16px;">Privacy Policy</h3>
+    <p style="margin: 0 0 10px 0; font-size: 13px; opacity: 0.8;">
+        <em>Game ini tidak mengumpulkan data pribadi. Google menggunakan cookie untuk keperluan iklan.</em>
+    </p>
+    <p style="margin: 0; font-size: 13px;">
+         <a href="mailto:farizfirmansyah2012@gmail.com" style="color: #ffffff; font-weight: bold; text-decoration: underline;">Kontak:</a>
+    </p>
+</div> 
 
-    .saweria-floating-btn {
-        display: flex !important;
-        align-items: center !important;
-        background: rgba(230, 184, 0, 0.25) !important; 
-        backdrop-filter: blur(12px) !important;
-        -webkit-backdrop-filter: blur(12px) !important;
-        border: 1px solid rgba(230, 184, 0, 0.4) !important;
-        color: #ffcc00 !important; 
-        text-decoration: none !important;
-        padding: 12px 24px !important;
-        border-radius: 16px !important; 
-        font-family: 'Segoe UI', Roboto, sans-serif !important;
-        font-weight: 700 !important;
-        font-size: 14px !important;
-        letter-spacing: 0.5px !important;
-        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3) !important;
-        transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
-        animation: saweriaGlowLight 3s infinite ease-in-out !important;
-    }
-
-    .saweria-floating-btn svg {
-        margin-right: 12px !important;
-        fill: #ffcc00 !important;
-        transition: all 0.4s ease !important;
-        display: inline-block !important;
-    }
-
-    .saweria-floating-btn:hover {
-        transform: translateY(-5px) !important;
-        background: rgba(230, 184, 0, 0.9) !important; 
-        color: #1a1a1a !important;
-        border-color: #ffcc00 !important;
-        box-shadow: 0 12px 28px rgba(230, 184, 0, 0.4) !important;
-    }
-
-    .saweria-floating-btn:hover svg {
-        fill: #1a1a1a !important;
-        transform: scale(1.15) rotate(-10deg) !important;
-    }
-
-    @keyframes saweriaGlowLight {
-        0%, 100% {
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(230, 184, 0, 0.3);
-            border-color: rgba(230, 184, 0, 0.4);
-        }
-        50% {
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), 0 0 15px 4px rgba(230, 184, 0, 0.2);
-            border-color: rgba(230, 184, 0, 0.8); 
-        }
-    }
-
-    @media (max-width: 600px) {
-        .saweria-floating-container {
-            bottom: 20px !important;
-            right: 20px !important;
-        }
-        .saweria-floating-btn {
-            padding: 10px 18px !important;
-            font-size: 13px !important;
-            border-radius: 12px !important;
-        }
-    }
-</style>
-
-<!-- Pembungkus Khusus untuk Memutus CSS Bawaan Website -->
-<div class="saweria-floating-container">
-    <a href="https://saweria.co/FarizDev2012" target="_blank" class="saweria-floating-btn">
-        <svg width="20" height="20" viewBox="0 0 24 24">
-            <path d="M2 21h18v-2H2v2M20 8h-2V5h2v3M4 19h12v-4H4v4m0-6h12V5H4v8m14-8h2a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-2V5z"/>
-        </svg>
-        <span>Traktir Kopi Rp 5k</span>
-    </a>
-</div>
-<!-- ========================================== -->
 </body>
 </html>
