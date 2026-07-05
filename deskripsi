@@ -1,0 +1,101 @@
+# 🚀 Modern Login Page Template (PHP + MySQL)
+
+Modern Login Page Template adalah template halaman login dengan tampilan elegan dan profesional yang dibuat menggunakan PHP, CSS, JavaScript, dan MySQL.
+
+Template ini hadir dengan desain Glassmorphism modern, efek animasi bintang jatuh (Meteor Animation), efek kartu 3D interaktif, serta sistem login yang aman menggunakan Password Hash dan Session Authentication.
+
+Source code disusun dengan rapi, diberi komentar pada setiap bagian penting, sehingga mudah dipelajari, dimodifikasi, maupun dikembangkan, bahkan untuk pemula sekalipun.
+
+==================================================
+
+✨ Fitur Utama
+
+✔ Tampilan Modern Glassmorphism
+✔ Efek Meteor (Shooting Star Animation)
+✔ Efek Spark & Flash
+✔ Efek 3D Card Interaktif
+✔ Responsive di Desktop & Mobile
+✔ Sistem Login PHP
+✔ Password Hash
+✔ Session Authentication
+✔ Logout System
+✔ Struktur Source Code Rapi
+✔ Mudah Dikustomisasi
+✔ Siap Dikembangkan
+
+==================================================
+
+📦 Isi Produk
+
+- Source Code Lengkap
+- Database MySQL (.sql)
+- README.md
+- LICENSE.txt
+- Kode yang telah diberi komentar
+- Panduan Instalasi
+
+==================================================
+
+🛠 Teknologi
+
+• PHP
+• CSS3
+• JavaScript
+• MySQL
+• XAMPP
+
+==================================================
+
+🎯 Cocok Untuk
+
+• Belajar PHP Login System
+• Tugas Sekolah / Kuliah
+• Portfolio
+• Landing Page Login
+• Dashboard Admin
+• Project Website
+• Website Perusahaan
+• Website Client
+
+==================================================
+
+📌 Persyaratan
+
+- PHP 8 atau lebih baru
+- MySQL
+- XAMPP / Laragon
+
+==================================================
+
+📖 Instalasi Mudah
+
+1. Copy project ke folder htdocs.
+2. Import database login_db.sql.
+3. Jalankan Apache & MySQL.
+4. Buka project melalui browser.
+5. Login dan mulai gunakan.
+
+==================================================
+
+💡 Kelebihan
+
+✔ Source code bersih dan mudah dipahami.
+✔ Sudah menggunakan Password Hash.
+✔ Aman menggunakan Prepared Statement.
+✔ Efek animasi modern tanpa library tambahan.
+✔ Mudah diubah warna, background, font, dan animasi.
+✔ Siap digunakan sebagai dasar project website.
+
+==================================================
+
+📜 Lisensi
+
+Produk ini dapat digunakan untuk kebutuhan pribadi, komersial, maupun project client.
+
+Dilarang menjual ulang atau mendistribusikan ulang source code tanpa izin dari pembuat.
+
+==================================================
+
+Terima kasih telah menggunakan produk ini.
+
+Selamat berkarya! 🚀

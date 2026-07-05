@@ -1,0 +1,78 @@
+LISENSI PENGGUNAAN
+Modern Login Page Template
+Versi 1.0
+
+Hak Cipta © 2026
+Fariz Firmansyah
+
+Dengan membeli atau menggunakan produk ini, Anda dianggap telah membaca dan menyetujui seluruh ketentuan lisensi berikut.
+
+==================================================
+HAK PENGGUNAAN
+==================================================
+
+Anda DIIZINKAN untuk:
+
+✔ Menggunakan template ini untuk proyek pribadi.
+
+✔ Menggunakan template ini untuk proyek komersial.
+
+✔ Mengedit, memodifikasi, dan mengembangkan source code sesuai kebutuhan.
+
+✔ Menggunakan template ini untuk website klien.
+
+✔ Menggunakan template ini pada jumlah website yang tidak terbatas.
+
+==================================================
+LARANGAN
+==================================================
+
+Anda TIDAK DIIZINKAN untuk:
+
+✘ Menjual ulang source code ini dalam bentuk apa pun.
+
+✘ Membagikan source code kepada orang lain, baik gratis maupun berbayar.
+
+✘ Mengunggah source code ini ke marketplace lain.
+
+✘ Mengklaim source code ini sebagai karya milik sendiri.
+
+✘ Menjadikan source code ini sebagai bagian dari template lain yang diperjualbelikan.
+
+✘ Mendistribusikan ulang sebagian maupun seluruh isi project tanpa izin tertulis dari pembuat.
+
+==================================================
+KEPEMILIKAN
+==================================================
+
+Hak cipta dan kepemilikan source code sepenuhnya tetap menjadi milik pembuat.
+
+Dengan membeli produk ini, Anda hanya memperoleh hak untuk menggunakan source code sesuai ketentuan lisensi, bukan hak kepemilikan atas source code tersebut.
+
+==================================================
+GARANSI
+==================================================
+
+Produk ini disediakan sebagaimana adanya ("AS IS").
+
+Pembuat tidak bertanggung jawab atas kerusakan, kehilangan data, maupun kerugian lain yang timbul akibat penggunaan produk ini.
+
+==================================================
+DUKUNGAN
+==================================================
+
+Apabila menemukan bug atau mengalami kendala saat menggunakan produk ini, silakan hubungi pembuat melalui platform tempat Anda membeli produk ini.
+
+==================================================
+PEMBUAT
+==================================================
+
+Nama      : Fariz Firmansyah
+Produk    : Modern Login Page Template
+Versi     : 1.0
+
+Terima kasih telah membeli dan menggunakan produk ini.
+
+Semoga produk ini dapat membantu proses pengembangan website Anda.
+
+Selamat berkarya! 🚀
